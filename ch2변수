@@ -1,0 +1,28 @@
+- 자료형
+1. 기본형(실제 값 저장)
+  1)논리형(boolean), 문자형(char), 정수형(byte,short,int,long), 실수형(float,double)
+  
+2. 참조형(값의 주소 저장)
+  Data today = new Date(); // Date 객체를 생성해서, 그 주소를 today에 저장
+
+- 상수와 리터럴
+상수(constant) : 값을 한번만 저장할 수 있는 공간
+리터럴(literal) : 그 자체로 값을 의미하는 것
+
+-리터럴 타입의 접미사
+1. 정수형 : long 타입의 리터럴에 접미사 l,L (접미사 없으면 int/ byte, short 타입의 리터럴은 존재x)
+2. 실수형 : float = f/F, double = d/D, 접미사가 없으면 double
+            ex) float pi = 3.14; // error
+
+- 문자 리터럴과 문자열 리터럴
+문자열 + any type -> 문자열 + 문자열 -> 문자열
+String name = "JA" + "VA" // name은 "JAVA"
+String str = name + 8.0; // str은 "JAVA8.0"
+
+- 지시자
+%b = boolean 
+
+-scanner
+import java.util.*;
+Scanner scanner = new Scanner("System.in");
+String input = scanner.nextLine();
